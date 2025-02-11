@@ -85,6 +85,6 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual(-1, calc("5.0", "3"))
                 
         def test_sample23(self):
-                self.assertEqual(-1, calc(True, 10))
+                self.assertEqual(-1, calc(True, 10)) 
 
 

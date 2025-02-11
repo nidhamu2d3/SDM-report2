@@ -61,7 +61,7 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual(-1, calc("abc", 10))
         
         def test_sample17(self):
-                self.assertEqual(-1, calc("5", "10"))
+                self.assertEqual(50, calc("5", "10"))
         
         # 6. 組み合わせテスト
         def test_sample18(self):
@@ -86,5 +86,4 @@ class TestCalc (unittest.TestCase):
                 
         def test_sample23(self):
                 self.assertEqual(-1, calc(True, 10)) 
-
 
